@@ -6,7 +6,7 @@ var limit = "1"; //the default is 50
 
 //taken from W3schools.com
 var xmlhttp = new XMLHttpRequest();
-var url = "http://ws.audioscrobbler.com/2.0/?method=user.gettoptracks&user="+user+"&api_key="+API_KEY+"&limit="+limit+"&period="+period[2]+"&format=json";
+var url = "http://ws.audioscrobbler.com/2.0/?method=user.gettoptracks&user="+user+"&api_key="+API_KEY+"&limit="+limit+"&period="+period[1]+"&format=json";
 
 xmlhttp.open("GET", url, true);
 xmlhttp.send();
