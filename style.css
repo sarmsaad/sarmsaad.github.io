@@ -128,3 +128,7 @@ footer{
     width: auto;
     height: auto;
 }
+
+.curTrack{
+    text-align: center;
+}
