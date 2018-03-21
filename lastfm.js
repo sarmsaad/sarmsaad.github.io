@@ -19,6 +19,7 @@ xmlhttp.onreadystatechange = function() {
 };
 
 function getFirstTrack(arr) {
+    //1 
     var name = arr["toptracks"]["track"][0]["name"];
     var artist = arr["toptracks"]["track"][0]["artist"]["name"];
     console.log(artist +" - "+name);
@@ -26,8 +27,23 @@ function getFirstTrack(arr) {
     var img = arr["toptracks"]["track"][0]["image"][2]["#text"];
     var x = document.createElement("IMG");
     x.setAttribute("src", img);
-    // x.setAttribute("width", "250");
-    // x.setAttribute("height", "250");
     document.getElementById("img_id").appendChild(x);
-    // document.getElementById("img_id").innerHTML = img;
+        //2
+    name = arr["toptracks"]["track"][1]["name"];
+    artist = arr["toptracks"]["track"][1]["artist"]["name"];
+    console.log(artist +" - "+name);
+    document.getElementById("track1").innerHTML = artist +" - "+name;
+    img = arr["toptracks"]["track"][1]["image"][2]["#text"];
+    x = document.createElement("IMG");
+    x.setAttribute("src", img);
+    document.getElementById("img_id1").appendChild(x);
+    //3
+    name = arr["toptracks"]["track"][2]["name"];
+    artist = arr["toptracks"]["track"][2]["artist"]["name"];
+    console.log(artist +" - "+name);
+    document.getElementById("track2").innerHTML = artist +" - "+name;
+    img = arr["toptracks"]["track"][2]["image"][2]["#text"];
+    x = document.createElement("IMG");
+    x.setAttribute("src", img);
+    document.getElementById("img_id2").appendChild(x);
 }
