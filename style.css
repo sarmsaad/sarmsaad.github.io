@@ -132,3 +132,8 @@ footer{
 .curTrack{
     text-align: center;
 }
+
+.i-am-centered {
+    margin: auto;
+    max-width: 80%;
+}
