@@ -2,7 +2,7 @@ var API_KEY = "caacc4e2ae7dd704f1d30a464c001fd4";
 var shared_secret = "5599912915319c85b2d32a1196dbc178";
 var user = "srhmsd";
 var period = ["overall", "7day", "1month", "3month", "6month", "12month"];
-var limit = "1"; //the default is 50
+var limit = "3"; //the default is 50
 
 //taken from W3schools.com
 var xmlhttp = new XMLHttpRequest();
