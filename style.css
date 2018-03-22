@@ -9,6 +9,7 @@ p{
 }
 
 .box {
+    background-color: white;
     margin: 5em auto;
     width: 60%;
     padding: 1em;
