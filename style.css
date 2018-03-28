@@ -8,8 +8,8 @@ p{
     margin: 20px;
 }
 
-.row {
-   flex-wrap: false !important;
+.i-am-centered .row {
+   flex-wrap: nowrap !important;
 
 }
 
