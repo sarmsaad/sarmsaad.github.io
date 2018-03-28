@@ -8,6 +8,11 @@ p{
     margin: 20px;
 }
 
+.row {
+   flex-wrap: false !important;
+
+}
+
 .box {
     background-color: white;
     margin: 5em auto;
